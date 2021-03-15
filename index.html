@@ -10,26 +10,37 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="style.css" />
     <title>Taslema</title>
   </head>
   <body>
     <!-- //NAV Bar -->
-    <nav id="main-nav">
-      <a class="list-logo" href="#">
-        <img class="logo" src="./photos/logo-taslema.png" alt="logo-taslema" />
-      </a>
+    <nav class="container">
+      <div>
+        <a class="logo-link" href="#">
+          <img
+            class="logo"
+            src="./photos/logo-taslema.png"
+            alt="logo-taslema"
+          />
+        </a>
+        <div class="burger-menu hide">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+
       <ul class="nav-list">
-        <li><a href="./partner.html">Be a partner</a></li>
+        <li><a href="#partner">Be a partner</a></li>
         <li><a href="./appdownload.html">Get the app</a></li>
         <li><a href="./contact-us.html">Contact us</a></li>
         <li><a href="./our-story.html">Our Story</a></li>
       </ul>
     </nav>
     <!-- HEADER -->
-    <header class="content">
-      <div class="container-content">
+    <header class="container">
+      <div class="header-content">
         <h1>Get closer to your customers with Taslema</h1>
         <p>
           Get your delivery agent in under 20 minutes,egardless the physical
@@ -38,34 +49,11 @@
           a click.
         </p>
       </div>
-      <div class="container-video">
-        <video autoplay loop>
-          <source src="./photos/Taslema.mp4" type="video/mp4" />
-        </video>
-      </div>
+      <video autoplay loop>
+        <source src="./photos/Taslema.mp4" type="video/mp4" />
+      </video>
     </header>
-    <!-- How it works section -->
-    <section class="how-section">
-      <h2>How it works?</h2>
-      <div class="steps">
-        <div class="card step-one">
-          <div class="circle">1</div>
-          <p>Request a delivery gent to your place door step</p>
-          <img src="./photos/location.png" alt="" />
-        </div>
-        <div class="card step-two">
-          <div class="circle">2</div>
-          <p>Deliver your customer order in less than 45 min</p>
-          <img src="./photos/bike1.png" alt="" />
-        </div>
 
-        <div class="card step-three">
-          <div class="circle">3</div>
-          <p>Get your customer feedback and evaluation</p>
-          <img src="./photos/person.png" alt="" />
-        </div>
-      </div>
-    </section>
     <!-- vendors logo slider section  -->
     <section class="clints-section">
       <h2>Our Top Clients</h2>
@@ -78,13 +66,13 @@
             alt=""
           />
           <img
-            class=" hide vendor-logo"
+            class="hide vendor-logo"
             src="./photos/logos/97618644_3198236650200859_2846377751655481344_o.jpg"
             alt=""
           />
           <img class="hide vendor-logo" src="./photos/logos/chix.png" alt="" />
           <img
-            class=" vendor-logo"
+            class="vendor-logo"
             src="./photos/logos/coffe square.jpg"
             alt=""
           />
@@ -102,21 +90,21 @@
     <!-- testimonial section -->
     <section class="testimonial-section">
       <h2>Our Customers Feedback</h2>
-      <div class="testimonial-section-container">
+      <div class="container">
         <div class="testimonial-container">
           <div class="profile">
             <img src="./photos/Reem.jpeg" alt="" />
           </div>
           <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
           <div class="testimonial-content">
             <i class="fas fa-quote-right quote"></i>
-            
+
             <p class="feedback">
               <span class="highlted-text">Taslema</span> (previously presto) is
               always available, they have great customer service, really
@@ -127,7 +115,6 @@
               <p>Embroidery</p>
             </div>
             <i class="fas fa-quote-left quote"></i>
-  
           </div>
         </div>
         <div class="testimonial-container">
@@ -135,25 +122,26 @@
             <img src="./photos/Asmaa.jpeg" alt="" />
           </div>
           <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
           <div class="testimonial-content">
             <i class="fas fa-quote-right quote"></i>
             <p>
-              I really can't imagine my business expanding and growing if <span class="highlted-text">Taslema</span> (previously Presto) wasn't there for me. I am always ready to deliver to any customer
-              with <span class="highlted-text">Taslema</span> (previously Presto).
-  
+              I really can't imagine my business expanding and growing if
+              <span class="highlted-text">Taslema</span> (previously Presto)
+              wasn't there for me. I am always ready to deliver to any customer
+              with <span class="highlted-text">Taslema</span> (previously
+              Presto).
             </p>
             <div class="info">
               <h3>Asmaa Othman</h3>
               <p>Food Planet</p>
             </div>
             <i class="fas fa-quote-left quote"></i>
-  
           </div>
         </div>
         <div class="testimonial-container">
@@ -161,15 +149,15 @@
             <img src="./photos/nada.jpeg" alt="" />
           </div>
           <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
           <div class="testimonial-content">
             <i class="fas fa-quote-right quote"></i>
-            
+
             <p class="feedback">
               I have always suffered to deliver products to customers, sometimes
               I even deliver by myself. Now I just press a button then I find
@@ -181,62 +169,84 @@
               <p>Just for you</p>
             </div>
             <i class="fas fa-quote-left quote"></i>
-  
           </div>
         </div>
       </div>
-    </section> 
-    <!-- join us banner -->
-    <section class="be-vendor-section">
-<p>Join us now,be part of our super cool growing partners  </p>
-<button class="secondary-btn">Join Us</button>
     </section>
-<!-- who can work with us -->
-<section class="who-section">
-  <h2>Who can work with us?</h2>
-  <div class="who-section-container">
-    <div class="places">
-      <div class="place-container">
-        <img class="place" src="./places/1.jpg" alt="">
-        <h3>Restaurant</h3>
-      </div>
-      <div class="place-container">
-        <img class="place" src="./places/2.jpg" alt="">
-        <h3>Pharmacy</h3>
-      </div>
-      <div class="place-container">
-        <img class="place" src="./places/3.jpg" alt="">
-        <h3>Bakery</h3>
-      </div>
-      <div class="place-container">
-        <img class="place" src="./places/4.jpg" alt="">
-        <h3>Super Market</h3>
-      </div>
-      <div class="place-container">
-        <img class="place" src="./places/5.jpg" alt="">
-        <h3>Any Place</h3>
-      </div>
-    </div>
-    <img class="who-img" src="./photos/1.jpg" alt="">
 
+    <!-- who can work with us -->
+    <section class="container-column">
+      <h2>Who can work with us?</h2>
+      <div class="container ">
+        <div class="places">
+          <div class="place-container">
+            <i class="fas fa-hamburger"></i>
+            <h3>Restaurant</h3>
+          </div>
+          <div class="place-container">
+            <i class="fas fa-capsules"></i>
+            <h3>Pharmacy</h3>
+          </div>
+          <div class="place-container">
+            <i class="fas fa-cookie"></i>
+            <h3>Bakery</h3>
+          </div>
+          <div class="place-container">
+            <i class="fas fa-carrot"></i>
+            <h3>Super Market</h3>
+          </div>
+          <div class="place-container">
+            <i class="fas fa-map-marker-alt"></i>            <h3>Any Place</h3>
+          </div>
+        </div>
+        <img class="who-img" src="./photos/1.jpg" alt="" />
+      </div>
+    </section>
+    <section id="partner" class="container-column">
+<h2>Be one of Taslema super growing partners</h2>
+<div class="container">
+  <div class="container-column">
+    <p >With Taslema your products are always on the way to your clients, get more clients and expand your service with Taslema
+      <ul>
+        <li>Request delivery agent in less than 20 min</li>
+        <li>Get paid in advance</li>
+        <li>Your product will be delivered in less than 60 min</li>
+      </ul>  
+      <button class="btn">Join Taslema Partners</button>
+      </p>
   </div>
-</section>
-<footer>
-  <div class="follow">
-    <h2>Follow us on Social Media</h2>
-    <div class="social-media">
-      <i class="fab fa-facebook-square"><a href="https://www.facebook.com/TaslemaDeliveryService"></a></i>
-      <i class="fab fa-twitter-square"><a href="https://twitter.com/prestoeg"></a></i>
-      <i class="fab fa-instagram-square"><a href="https://www.instagram.com/prestoeg/"></a></i>
-      <i class="fab fa-linkedin"><a href="https://www.linkedin.com/company/prestoeg/"></a></i>
-    </div>
-  </div>
-  
-  <div class="download-app">
-    <h2>App is available for download</h2>
-    <img class="download" src="./photos/png-transparent-app-store-google-play-apple-apple-text-logo-sign.png" alt="">
-  </div>
-</footer>
+  <img class="who-img" src="./photos/IMG_0084.JPG" alt="">
+
+</div>
+    </section>
+    <footer>
+      <div class="follow">
+        <h2>Follow us on Social Media</h2>
+        <div class="social-media">
+          <i class="fab fa-facebook-square"
+            ><a href="https://www.facebook.com/TaslemaDeliveryService"></a
+          ></i>
+          <i class="fab fa-twitter-square"
+            ><a href="https://twitter.com/prestoeg"></a
+          ></i>
+          <i class="fab fa-instagram-square"
+            ><a href="https://www.instagram.com/prestoeg/"></a
+          ></i>
+          <i class="fab fa-linkedin"
+            ><a href="https://www.linkedin.com/company/prestoeg/"></a
+          ></i>
+        </div>
+      </div>
+
+      <div class="download-app">
+        <h2>App is available for download</h2>
+        <img
+          class="download"
+          src="./photos/png-transparent-app-store-google-play-apple-apple-text-logo-sign.png"
+          alt=""
+        />
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>

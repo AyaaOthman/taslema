@@ -1,3 +1,5 @@
+
+// logo slider
 const vendorlogos = document.querySelectorAll(".vendor-logo");
 const next = document.querySelector(".next");
 const back = document.querySelector(".back");
@@ -63,4 +65,14 @@ counters.forEach(counter =>{
     }
     updateCounter()
 })
-console.log(1)
+
+///nav menu
+const menu = document.querySelector('.burger-menu')
+menu.addEventListener('click', openMenu)
+function openMenu(){
+  const list =document.querySelector('.nav-list')
+  const nav =document.querySelector('nav')
+  list.classList.toggle('active')
+  nav.classList.toggle('active')
+  menu.classList.toggle('active')
+}
