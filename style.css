@@ -24,6 +24,10 @@ a {
 h2, h1{
   margin: 20px 0px;
 }
+img{
+  object-fit: cover;
+  
+}
 body {
   font-family: "Quicksand";
   color: var(--secondary-color);
@@ -36,6 +40,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 980px;
+  padding: 10px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    overflow-wrap: break-word;
 }
 .container-column{
   display: flex;
@@ -43,13 +53,17 @@ body {
   align-items: center;
 flex-direction: column;
 }
+
 /* NAV BAR */
 nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: sticky;
   top: 0;
   left: 0;
   background-color: var(--secondary-color);
-  
+  color: white;
   z-index: 1;
 
 }
@@ -69,7 +83,7 @@ nav{
   
 }
 .nav-container{
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .nav-list li {
 width: 150px;
@@ -92,20 +106,25 @@ align-items: center;
 
 }
 /* HEADER */
+
 .header-content{
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+align-items:center ;
   margin: 20px;
-  
+
 }
 p{
   line-height: 25px;
   font-size: 20px;
 }
-video {
- max-width: 400px;
- padding: 0.5rem;
- margin: 40px;
+.header-img{
+ width: 80%;
+ height: 80%;
+margin-top: 10px;
+border-radius: 5px;
 }
 
 /* testimonial section */
@@ -280,7 +299,31 @@ padding: 0.5rem;
 color:var(--primary-color);
 
 }
+/* privacy and policy page */
+.privacy-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  max-width: 980px;
+  padding: 10px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    overflow-wrap: break-word;
+}
+.privacy-container p{
+font-size: 1rem;}
+.privacy-container ul{
+  list-style-type: disc;
+  padding: 10px 20px 40px;
 
+}
+.bold{
+  font-weight: bold;
+}
 /* Mobile */
 @media only screen and (max-width: 768px){
   .container{
