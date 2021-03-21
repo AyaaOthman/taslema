@@ -261,23 +261,27 @@ max-width: 500px;
   margin: 0px 20px;
 }
 footer{
+  background-color: var(--secondary-color);
+  height: 150px;
+
+}
+.footer-container{
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--secondary-color);
   color: white;
+  padding: 0.5rem;
 }
-
 .social-media{
   display: flex;
   justify-content:space-around;
   align-items: center;
-  height: 160px;
 
 }
 .social-media i{
   color: white;
-  margin: 0px 20px;
   font-size: 2rem;
 }
 .logo-download{
@@ -361,6 +365,15 @@ nav{
   animation: liMove 1s ease-in-out;
   border: #99a1ae dotted 1px ;
 
+
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+.privacy, .follow{
+  display: flex;
+  flex-direction: column;
 }
 @keyframes liMove {
   from{opacity: 0;}
